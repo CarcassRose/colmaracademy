@@ -1,0 +1,98 @@
+/* Universal Styles */
+* {
+    box-sizing: border-box;
+    color: #404040;
+  } 
+
+  html, body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 0rem;
+    padding: 0rem;
+    height: 100%;
+    width: 100%;
+    
+  }
+
+  /* Header Styles */
+header {
+    background-color: white;
+    height: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a.desktop-logo {
+    height: 2rem;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+
+  img.logo {
+    height: auto;
+    width: 2rem;
+  }
+
+  .logo-text-bold {
+    font-weight: bold;
+  }
+
+  .logo-text-light {
+    font-weight: lighter;
+  }
+
+  ul{
+    display: inline-flex;
+    align-items: center;
+    margin: 0rem;
+    padding: 0rem;
+  }
+
+  li {
+    display: inline-flex;
+    padding: 0.5rem;
+  }
+
+/* Hero Styles */
+.hero {
+    background-color: lightgray;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.hero-image {
+    width: 60%;
+    height: auto;
+}
+
+.hero-text {
+    padding: 1.5rem;
+}
+
+h1 {
+    line-height: 2.5rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+.button {
+    padding: 0.5rem;
+    background-color: #404040;
+    width: 80%;
+    color: white;
+    line-height: 160%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Articles Styles */
