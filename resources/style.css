@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
     color: #404040;
+    margin: 0rem;
   } 
 
   html, body {
@@ -61,7 +62,6 @@ header {
 /* Hero Styles */
 .hero {
     background-color: lightgray;
-    padding: 1.5rem;
     display: flex;
     align-items: center;
 }
@@ -69,14 +69,16 @@ header {
 .hero-image {
     width: 60%;
     height: auto;
+    padding: 1.5rem;
 }
 
 .hero-text {
-    padding: 1.5rem;
+    width: 40%;
 }
 
 h1 {
     line-height: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 h5 {
@@ -93,6 +95,74 @@ h5 {
     line-height: 160%;
     display: flex;
     justify-content: center;
+    margin-top: 1.5rem;
 }
 
 /* Articles Styles */
+.articles-section {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.big-article {
+    width: 60%;
+    padding: 1.5rem;
+}
+
+.big-article-image {
+    width: 100%;
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.side-articles {
+    border-left-style: solid;
+    border-left-color: lightgray;
+    border-left-width: 1px;
+    width: 40%;
+    
+}
+
+.small-article, .small-article-hover{
+    padding: 1rem;
+    display: inline-flex;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 1px;
+}
+.small-article-hover{
+    background-color: lightgray;
+}
+
+.image {
+    width: 35%;
+    height: auto;
+}
+
+.article-text {
+    width: 65%;
+    padding-left: 1.5rem;
+}
+
+p {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: smaller;
+    color: #7d7d7d;
+}
+
+a.read-more {
+    text-decoration: none;
+    color: blue;
+    font-size: smaller;
+}
+
+.author {
+    margin: 0rem;
+}
